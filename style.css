@@ -37,3 +37,34 @@ body{
     padding: 10px 25px;
     color: white;
 }
+.center{
+    text-align: center;
+}
+.mission-container{
+    display: flex;
+}
+
+#mission{
+    width: 30%;
+    margin-right: 3%;
+    background-color: #c7dcc7;
+    padding: 20px 20px ;
+    border-radius: 15px;
+}
+#vission{
+    width: 30%;
+    margin-right: 3%;
+    background-color: #f4eecc;
+    padding: 20px 20px ;
+    border-radius: 15px;
+}
+#goals{
+    width: 30%;
+    background-color:#edc9cd;
+    padding: 20px 20px ;
+    border-radius: 20px;
+}
+
+.mission-container img{
+    width: 40%;
+}
