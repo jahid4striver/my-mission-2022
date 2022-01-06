@@ -1,0 +1,39 @@
+body{
+    margin-left: 12%;
+    margin-right: 12%;
+}
+.title-container{
+    display: flex;
+}
+.title-half{
+    width: 50%;
+    margin-top: 120px;
+
+}
+
+.title-img{
+    width: 50%;
+}
+.title-img img{
+    width: 60%;
+    margin-left: 25%;
+}
+.title-heading{
+    border-left: 3px solid;
+    border-image: linear-gradient(tomato,red);
+    border-image-slice: 1;
+    padding-left: 5px;
+}
+.title-heading h1{
+    font-family: 'Lora', serif;
+    font-size: 32px;
+}
+.orange-color{
+    color: orange;
+}
+#explore-btn{
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px 25px;
+    color: white;
+}
