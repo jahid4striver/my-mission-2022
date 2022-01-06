@@ -39,11 +39,12 @@ section{
 .orange-color{
     color: orange;
 }
-#explore-btn{
+.explore-btn{
     text-decoration: none;
     background-color: tomato;
     padding: 10px 25px;
     color: white;
+    border-radius: 5px;
 }
 .center{
     text-align: center;
@@ -123,6 +124,53 @@ section{
     margin-top: 10px;
     padding: 12px 40px;
     border-radius: 5px;
+}
+
+.contact-container{
+    display: flex;
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position:center center;
+
+}
+    
+.contact-form{
+    width: 50%;
+    box-shadow: 2px 2px 10px gray;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    margin-right: 1%;
+}
+.input-form{
+    display: block;
+    width: 80%;
+    padding: 10px;
+    border: 0.5px solid gray;
+}
+.submit-btn{
+    background-color: tomato;
+    color: white;
+    padding: 10px 20px;
+    border: 0.5px solid transparent;
+    border-radius: 5px;
+    margin-top: 5px;
+    
+}
+.address{
+    width: 50%;
+    box-shadow: 2px 2px 10px gray;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.address img{
+    width: 80%;
+    margin: 10px;
+    padding-left: 25px;
+    padding-top: 15px;
 }
 
 footer{
